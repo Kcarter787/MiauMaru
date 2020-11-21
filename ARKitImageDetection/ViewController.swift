@@ -68,7 +68,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     /// - Tag: ARReferenceImage-Loading
 	func resetTracking() {
         
-        guard let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else {
+        guard let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "MiauMaruCo-Resources", bundle: nil) else {
             fatalError("Missing expected asset catalog resources.")
         }
         
@@ -103,7 +103,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
              Image anchors are not tracked after initial detection, so create an
              animation that limits the duration for which the plane visualization appears.
              */
-            planeNode.runAction(self.imageHighlightAction)
+            planeNode.runAction(self.imageHighlightAction) {
+                self.session.remove(anchor: anchor)
+            }
             
             // Add the plane visualization to the scene.
             node.addChildNode(planeNode)
