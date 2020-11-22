@@ -103,9 +103,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
              Image anchors are not tracked after initial detection, so create an
              animation that limits the duration for which the plane visualization appears.
              */
-            planeNode.runAction(self.imageHighlightAction) {
-                self.session.remove(anchor: anchor)
-            }
+            planeNode.runAction(self.imageHighlightAction)
             
             // Add the plane visualization to the scene.
             node.addChildNode(planeNode)
