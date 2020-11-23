@@ -13,6 +13,9 @@
 		3929C4931E89EC2C00E00B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3929C4921E89EC2C00E00B60 /* Assets.xcassets */; };
 		39D8DC1B1E8ADAE600386B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */; };
 		51175AA12568D3C900E945A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51175A9F2568D3C900E945A5 /* Assets.xcassets */; };
+		51DD760B256AE5E30030BD57 /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD760A256AE5E30030BD57 /* AnimationExtension.swift */; };
+		51DD760E256AEAAB0030BD57 /* klee.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DD760D256AEAAB0030BD57 /* klee.png */; };
+		51DD7621256B38520030BD57 /* isabelle.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7620256B38520030BD57 /* isabelle.png */; };
 		C41366B91EB80DD400EC054A /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41366B81EB80DD400EC054A /* StatusViewController.swift */; };
 		C8C12A711F29277B00B011FE /* ViewController+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C12A701F29277B00B011FE /* ViewController+ARSessionDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +30,9 @@
 		3929C4971E89EC2C00E00B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51175A9F2568D3C900E945A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51DD760A256AE5E30030BD57 /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
+		51DD760D256AEAAB0030BD57 /* klee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = klee.png; sourceTree = "<group>"; };
+		51DD7620256B38520030BD57 /* isabelle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isabelle.png; sourceTree = "<group>"; };
 		B8AE7549A2472F11C9D46447 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		C17E12BC981B62B3753B451B /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C41366B81EB80DD400EC054A /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +61,8 @@
 		1488324C1EFC3ED00043E0AB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				51DD7620256B38520030BD57 /* isabelle.png */,
+				51DD760D256AEAAB0030BD57 /* klee.png */,
 				3929C4921E89EC2C00E00B60 /* Assets.xcassets */,
 				3929C4971E89EC2C00E00B60 /* Info.plist */,
 				3929C48F1E89EC2C00E00B60 /* Main.storyboard */,
@@ -91,6 +99,7 @@
 				C8C12A701F29277B00B011FE /* ViewController+ARSessionDelegate.swift */,
 				1488324B1EFC3EBF0043E0AB /* Additional View Controllers */,
 				1488324C1EFC3ED00043E0AB /* Resources */,
+				51DD760A256AE5E30030BD57 /* AnimationExtension.swift */,
 			);
 			path = ARKitImageDetection;
 			sourceTree = "<group>";
@@ -181,8 +190,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				39D8DC1B1E8ADAE600386B05 /* LaunchScreen.storyboard in Resources */,
+				51DD760E256AEAAB0030BD57 /* klee.png in Resources */,
 				3929C4931E89EC2C00E00B60 /* Assets.xcassets in Resources */,
 				3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */,
+				51DD7621256B38520030BD57 /* isabelle.png in Resources */,
 				51175AA12568D3C900E945A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +207,7 @@
 			files = (
 				3929C48E1E89EC2C00E00B60 /* ViewController.swift in Sources */,
 				C41366B91EB80DD400EC054A /* StatusViewController.swift in Sources */,
+				51DD760B256AE5E30030BD57 /* AnimationExtension.swift in Sources */,
 				C8C12A711F29277B00B011FE /* ViewController+ARSessionDelegate.swift in Sources */,
 				3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */,
 			);
