@@ -16,9 +16,42 @@
 		51DD760B256AE5E30030BD57 /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD760A256AE5E30030BD57 /* AnimationExtension.swift */; };
 		51DD760E256AEAAB0030BD57 /* klee.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DD760D256AEAAB0030BD57 /* klee.png */; };
 		51DD7621256B38520030BD57 /* isabelle.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7620256B38520030BD57 /* isabelle.png */; };
+		51DD764B256C5B640030BD57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD764A256C5B640030BD57 /* AppDelegate.swift */; };
+		51DD764D256C5B640030BD57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD764C256C5B640030BD57 /* SceneDelegate.swift */; };
+		51DD764F256C5B640030BD57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD764E256C5B640030BD57 /* ContentView.swift */; };
+		51DD7654256C5B790030BD57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7653256C5B790030BD57 /* Preview Assets.xcassets */; };
+		51DD7657256C5B790030BD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7655256C5B790030BD57 /* LaunchScreen.storyboard */; };
+		51DD765C256C5B790030BD57 /* MiauMaruAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 51DD7648256C5B640030BD57 /* MiauMaruAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		51DD7663256C60530030BD57 /* isabelle.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7620256B38520030BD57 /* isabelle.png */; };
+		51DD7664256C60530030BD57 /* klee.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DD760D256AEAAB0030BD57 /* klee.png */; };
+		51DD7667256C60570030BD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3929C4921E89EC2C00E00B60 /* Assets.xcassets */; };
 		C41366B91EB80DD400EC054A /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41366B81EB80DD400EC054A /* StatusViewController.swift */; };
 		C8C12A711F29277B00B011FE /* ViewController+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C12A701F29277B00B011FE /* ViewController+ARSessionDelegate.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51DD765A256C5B790030BD57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3929C4801E89EC2C00E00B60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51DD7647256C5B640030BD57;
+			remoteInfo = MiauMaruAppClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51DD7660256C5B790030BD57 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				51DD765C256C5B790030BD57 /* MiauMaruAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		11063F3B1EBE651B0033EE6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -33,6 +66,14 @@
 		51DD760A256AE5E30030BD57 /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
 		51DD760D256AEAAB0030BD57 /* klee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = klee.png; sourceTree = "<group>"; };
 		51DD7620256B38520030BD57 /* isabelle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isabelle.png; sourceTree = "<group>"; };
+		51DD7648256C5B640030BD57 /* MiauMaruAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiauMaruAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51DD764A256C5B640030BD57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51DD764C256C5B640030BD57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51DD764E256C5B640030BD57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51DD7653256C5B790030BD57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51DD7656256C5B790030BD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51DD7658256C5B790030BD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51DD7659256C5B790030BD57 /* MiauMaruAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiauMaruAppClip.entitlements; sourceTree = "<group>"; };
 		B8AE7549A2472F11C9D46447 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		C17E12BC981B62B3753B451B /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C41366B81EB80DD400EC054A /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +82,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		3929C4851E89EC2C00E00B60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51DD7645256C5B640030BD57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,6 +124,7 @@
 			children = (
 				11063F3B1EBE651B0033EE6D /* README.md */,
 				3929C48A1E89EC2C00E00B60 /* ARKitImageDetection */,
+				51DD7649256C5B640030BD57 /* MiauMaruAppClip */,
 				3929C4891E89EC2C00E00B60 /* Products */,
 				3A5846375545754B2813312D /* Configuration */,
 				895B89F1FDA649E6F5014972 /* LICENSE */,
@@ -86,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				3929C4881E89EC2C00E00B60 /* ARKitImageDetection.app */,
+				51DD7648256C5B640030BD57 /* MiauMaruAppClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,6 +170,28 @@
 			path = Particles;
 			sourceTree = "<group>";
 		};
+		51DD7649256C5B640030BD57 /* MiauMaruAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				51DD764A256C5B640030BD57 /* AppDelegate.swift */,
+				51DD764C256C5B640030BD57 /* SceneDelegate.swift */,
+				51DD764E256C5B640030BD57 /* ContentView.swift */,
+				51DD7655256C5B790030BD57 /* LaunchScreen.storyboard */,
+				51DD7658256C5B790030BD57 /* Info.plist */,
+				51DD7659256C5B790030BD57 /* MiauMaruAppClip.entitlements */,
+				51DD7652256C5B790030BD57 /* Preview Content */,
+			);
+			path = MiauMaruAppClip;
+			sourceTree = "<group>";
+		};
+		51DD7652256C5B790030BD57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				51DD7653256C5B790030BD57 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		895B89F1FDA649E6F5014972 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,15 +210,34 @@
 				3929C4841E89EC2C00E00B60 /* Sources */,
 				3929C4851E89EC2C00E00B60 /* Frameworks */,
 				3929C4861E89EC2C00E00B60 /* Resources */,
+				51DD7660256C5B790030BD57 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				51DD765B256C5B790030BD57 /* PBXTargetDependency */,
 			);
 			name = ARKitImageDetection;
 			productName = ARKitImageRecognition;
 			productReference = 3929C4881E89EC2C00E00B60 /* ARKitImageDetection.app */;
 			productType = "com.apple.product-type.application";
+		};
+		51DD7647256C5B640030BD57 /* MiauMaruAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51DD765D256C5B790030BD57 /* Build configuration list for PBXNativeTarget "MiauMaruAppClip" */;
+			buildPhases = (
+				51DD7644256C5B640030BD57 /* Sources */,
+				51DD7645256C5B640030BD57 /* Frameworks */,
+				51DD7646256C5B640030BD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiauMaruAppClip;
+			productName = MiauMaruAppClip;
+			productReference = 51DD7648256C5B640030BD57 /* MiauMaruAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -154,14 +245,20 @@
 		3929C4801E89EC2C00E00B60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
+				DefaultBuildSystemTypeForWorkspace = Latest;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					3929C4871E89EC2C00E00B60 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = Q5Q7JKJ5TC;
+						DevelopmentTeam = J4ZCL94M34;
 						LastSwiftMigration = 1140;
+						ProvisioningStyle = Automatic;
+					};
+					51DD7647256C5B640030BD57 = {
+						CreatedOnToolsVersion = 12.2;
+						DevelopmentTeam = J4ZCL94M34;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -180,6 +277,7 @@
 			projectRoot = "";
 			targets = (
 				3929C4871E89EC2C00E00B60 /* ARKitImageDetection */,
+				51DD7647256C5B640030BD57 /* MiauMaruAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -198,6 +296,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51DD7646256C5B640030BD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DD7663256C60530030BD57 /* isabelle.png in Resources */,
+				51DD7664256C60530030BD57 /* klee.png in Resources */,
+				51DD7657256C5B790030BD57 /* LaunchScreen.storyboard in Resources */,
+				51DD7654256C5B790030BD57 /* Preview Assets.xcassets in Resources */,
+				51DD7667256C60570030BD57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -213,7 +323,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		51DD7644256C5B640030BD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DD764B256C5B640030BD57 /* AppDelegate.swift in Sources */,
+				51DD764D256C5B640030BD57 /* SceneDelegate.swift in Sources */,
+				51DD764F256C5B640030BD57 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51DD765B256C5B790030BD57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51DD7647256C5B640030BD57 /* MiauMaruAppClip */;
+			targetProxy = 51DD765A256C5B790030BD57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3929C48F1E89EC2C00E00B60 /* Main.storyboard */ = {
@@ -223,6 +351,14 @@
 			);
 			name = Main.storyboard;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		51DD7655256C5B790030BD57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51DD7656256C5B790030BD57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -345,15 +481,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8AE7549A2472F11C9D46447 /* SampleCode.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q5Q7JKJ5TC;
+				DEVELOPMENT_TEAM = J4ZCL94M34;
 				INFOPLIST_FILE = "$(SRCROOT)/ARKitImageDetection/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.miaumaru.kevinc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaumaru.kcarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -365,19 +502,77 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8AE7549A2472F11C9D46447 /* SampleCode.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q5Q7JKJ5TC;
+				DEVELOPMENT_TEAM = J4ZCL94M34;
 				INFOPLIST_FILE = "$(SRCROOT)/ARKitImageDetection/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.miaumaru.kevinc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaumaru.kcarter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		51DD765E256C5B790030BD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MiauMaruAppClip/MiauMaruAppClip.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MiauMaruAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = J4ZCL94M34;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MiauMaruAppClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaumaru.kcarter.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51DD765F256C5B790030BD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = MiauMaruAppClip/MiauMaruAppClip.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MiauMaruAppClip/Preview Content\"";
+				DEVELOPMENT_TEAM = J4ZCL94M34;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MiauMaruAppClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaumaru.kcarter.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -398,6 +593,15 @@
 			buildConfigurations = (
 				3929C49B1E89EC2C00E00B60 /* Debug */,
 				3929C49C1E89EC2C00E00B60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51DD765D256C5B790030BD57 /* Build configuration list for PBXNativeTarget "MiauMaruAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51DD765E256C5B790030BD57 /* Debug */,
+				51DD765F256C5B790030BD57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
