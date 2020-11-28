@@ -89,13 +89,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1488324B1EFC3EBF0043E0AB /* Additional View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Additional View Controllers";
-			sourceTree = "<group>";
-		};
 		1488324C1EFC3ED00043E0AB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +126,6 @@
 				3929C4971E89EC2C00E00B60 /* Info.plist */,
 				51175A9D2568D35900E945A5 /* Particles */,
 				3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */,
-				1488324B1EFC3EBF0043E0AB /* Additional View Controllers */,
 				1488324C1EFC3ED00043E0AB /* Resources */,
 				51E8E5702572D6E800B54999 /* SceneDelegate.swift */,
 				51E8E5742572D74000B54999 /* ContentView.swift */,
