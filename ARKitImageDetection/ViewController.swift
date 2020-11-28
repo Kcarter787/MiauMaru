@@ -8,7 +8,7 @@ Main view controller for the AR experience.
 import ARKit
 import SceneKit
 import UIKit
-
+import MiauMaruAR
 class ViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet var sceneView: ARSCNView!
@@ -44,7 +44,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
         // Prevent the screen from being dimmed to avoid interuppting the AR experience.
         UIApplication.shared.isIdleTimerDisabled = true
 
