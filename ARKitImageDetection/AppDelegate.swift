@@ -7,7 +7,7 @@ Application's delegate.
 
 import UIKit
 import ARKit
-
+import MiauMaruAR
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 	var window: UIWindow?
@@ -24,7 +24,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 determine whether to show UI for launching AR experiences.
             """) // For details, see https://developer.apple.com/documentation/arkit
         }
-
+        window = UIWindow(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+        window?.makeKeyAndVisible()
+        let storyboard = UIStoryboard(name: "Main", bundle: MiauMaruAR.bundle)
+        let arViewController = storyboard.instantiateViewController(withIdentifier: "ARViewController")
+        window?.rootViewController = arViewController
         return true
     }
 }

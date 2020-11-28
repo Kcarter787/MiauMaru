@@ -8,22 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */; };
-		3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3929C48F1E89EC2C00E00B60 /* Main.storyboard */; };
-		3929C4931E89EC2C00E00B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3929C4921E89EC2C00E00B60 /* Assets.xcassets */; };
-		39D8DC1B1E8ADAE600386B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */; };
 		51175AA12568D3C900E945A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51175A9F2568D3C900E945A5 /* Assets.xcassets */; };
-		51DD760E256AEAAB0030BD57 /* klee.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DD760D256AEAAB0030BD57 /* klee.png */; };
-		51DD7621256B38520030BD57 /* isabelle.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7620256B38520030BD57 /* isabelle.png */; };
+		5152FF1B2572B8C20072736C /* MiauMaruAR in Frameworks */ = {isa = PBXBuildFile; productRef = 5152FF1A2572B8C20072736C /* MiauMaruAR */; };
 		51DD764B256C5B640030BD57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD764A256C5B640030BD57 /* AppDelegate.swift */; };
 		51DD764D256C5B640030BD57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD764C256C5B640030BD57 /* SceneDelegate.swift */; };
 		51DD764F256C5B640030BD57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD764E256C5B640030BD57 /* ContentView.swift */; };
 		51DD7654256C5B790030BD57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7653256C5B790030BD57 /* Preview Assets.xcassets */; };
 		51DD7657256C5B790030BD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7655256C5B790030BD57 /* LaunchScreen.storyboard */; };
 		51DD765C256C5B790030BD57 /* MiauMaruAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 51DD7648256C5B640030BD57 /* MiauMaruAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		51DD7663256C60530030BD57 /* isabelle.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7620256B38520030BD57 /* isabelle.png */; };
-		51DD7664256C60530030BD57 /* klee.png in Resources */ = {isa = PBXBuildFile; fileRef = 51DD760D256AEAAB0030BD57 /* klee.png */; };
-		51DD7667256C60570030BD57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3929C4921E89EC2C00E00B60 /* Assets.xcassets */; };
 		51F0BA9425718D6800379AC8 /* MiauMaruAR in Frameworks */ = {isa = PBXBuildFile; productRef = 51F0BA9325718D6800379AC8 /* MiauMaruAR */; };
+		51F0BAB92572A77300379AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F0BAB82572A77300379AC8 /* Assets.xcassets */; };
+		51F0BAC22572A7AB00379AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F0BAB82572A77300379AC8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +49,8 @@
 		11063F3B1EBE651B0033EE6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3929C4881E89EC2C00E00B60 /* ARKitImageDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitImageDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3929C4901E89EC2C00E00B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3929C4921E89EC2C00E00B60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3929C4971E89EC2C00E00B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51175A9F2568D3C900E945A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		51DD760D256AEAAB0030BD57 /* klee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = klee.png; sourceTree = "<group>"; };
-		51DD7620256B38520030BD57 /* isabelle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = isabelle.png; sourceTree = "<group>"; };
 		51DD7648256C5B640030BD57 /* MiauMaruAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiauMaruAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DD764A256C5B640030BD57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51DD764C256C5B640030BD57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +60,7 @@
 		51DD7658256C5B790030BD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51DD7659256C5B790030BD57 /* MiauMaruAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiauMaruAppClip.entitlements; sourceTree = "<group>"; };
 		51F0BA8F25717FFE00379AC8 /* MiauMaruAR */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MiauMaruAR; path = ../MiauMaruAR; sourceTree = "<group>"; };
+		51F0BAB82572A77300379AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		B8AE7549A2472F11C9D46447 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		C17E12BC981B62B3753B451B /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5152FF1B2572B8C20072736C /* MiauMaruAR in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,11 +95,7 @@
 		1488324C1EFC3ED00043E0AB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				51DD7620256B38520030BD57 /* isabelle.png */,
-				51DD760D256AEAAB0030BD57 /* klee.png */,
-				3929C4921E89EC2C00E00B60 /* Assets.xcassets */,
-				3929C48F1E89EC2C00E00B60 /* Main.storyboard */,
-				39D8DC1A1E8ADAE600386B05 /* LaunchScreen.storyboard */,
+				51F0BAB82572A77300379AC8 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -218,6 +206,9 @@
 				51DD765B256C5B790030BD57 /* PBXTargetDependency */,
 			);
 			name = ARKitImageDetection;
+			packageProductDependencies = (
+				5152FF1A2572B8C20072736C /* MiauMaruAR */,
+			);
 			productName = ARKitImageRecognition;
 			productReference = 3929C4881E89EC2C00E00B60 /* ARKitImageDetection.app */;
 			productType = "com.apple.product-type.application";
@@ -250,7 +241,7 @@
 			attributes = {
 				DefaultBuildSystemTypeForWorkspace = Latest;
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					3929C4871E89EC2C00E00B60 = {
@@ -290,11 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39D8DC1B1E8ADAE600386B05 /* LaunchScreen.storyboard in Resources */,
-				51DD760E256AEAAB0030BD57 /* klee.png in Resources */,
-				3929C4931E89EC2C00E00B60 /* Assets.xcassets in Resources */,
-				3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */,
-				51DD7621256B38520030BD57 /* isabelle.png in Resources */,
+				51F0BAB92572A77300379AC8 /* Assets.xcassets in Resources */,
 				51175AA12568D3C900E945A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,11 +290,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51DD7663256C60530030BD57 /* isabelle.png in Resources */,
-				51DD7664256C60530030BD57 /* klee.png in Resources */,
 				51DD7657256C5B790030BD57 /* LaunchScreen.storyboard in Resources */,
+				51F0BAC22572A7AB00379AC8 /* Assets.xcassets in Resources */,
 				51DD7654256C5B790030BD57 /* Preview Assets.xcassets in Resources */,
-				51DD7667256C60570030BD57 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,15 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3929C48F1E89EC2C00E00B60 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3929C4901E89EC2C00E00B60 /* Base */,
-			);
-			name = Main.storyboard;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		51DD7655256C5B790030BD57 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -389,6 +365,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -413,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -449,6 +426,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -467,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -621,6 +599,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		5152FF1A2572B8C20072736C /* MiauMaruAR */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MiauMaruAR;
+		};
 		51F0BA9325718D6800379AC8 /* MiauMaruAR */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MiauMaruAR;
