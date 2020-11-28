@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MiauMaruAppClip
+//  ARKitImageDetection
 //
-//  Created by Kevin Carter on 11/23/20.
+//  Created by Kevin Carter on 11/28/20.
 //  Copyright © 2020 Apple. All rights reserved.
 //
 
@@ -59,4 +59,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 }
-

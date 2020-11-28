@@ -16,6 +16,8 @@
 		51DD7654256C5B790030BD57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7653256C5B790030BD57 /* Preview Assets.xcassets */; };
 		51DD7657256C5B790030BD57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DD7655256C5B790030BD57 /* LaunchScreen.storyboard */; };
 		51DD765C256C5B790030BD57 /* MiauMaruAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 51DD7648256C5B640030BD57 /* MiauMaruAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		51E8E5712572D6E800B54999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8E5702572D6E800B54999 /* SceneDelegate.swift */; };
+		51E8E5752572D74000B54999 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E8E5742572D74000B54999 /* ContentView.swift */; };
 		51F0BA9425718D6800379AC8 /* MiauMaruAR in Frameworks */ = {isa = PBXBuildFile; productRef = 51F0BA9325718D6800379AC8 /* MiauMaruAR */; };
 		51F0BAB92572A77300379AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F0BAB82572A77300379AC8 /* Assets.xcassets */; };
 		51F0BAC22572A7AB00379AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F0BAB82572A77300379AC8 /* Assets.xcassets */; };
@@ -59,6 +61,8 @@
 		51DD7656256C5B790030BD57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51DD7658256C5B790030BD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51DD7659256C5B790030BD57 /* MiauMaruAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MiauMaruAppClip.entitlements; sourceTree = "<group>"; };
+		51E8E5702572D6E800B54999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		51E8E5742572D74000B54999 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51F0BA8F25717FFE00379AC8 /* MiauMaruAR */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MiauMaruAR; path = ../MiauMaruAR; sourceTree = "<group>"; };
 		51F0BAB82572A77300379AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		B8AE7549A2472F11C9D46447 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */,
 				1488324B1EFC3EBF0043E0AB /* Additional View Controllers */,
 				1488324C1EFC3ED00043E0AB /* Resources */,
+				51E8E5702572D6E800B54999 /* SceneDelegate.swift */,
+				51E8E5742572D74000B54999 /* ContentView.swift */,
 			);
 			path = ARKitImageDetection;
 			sourceTree = "<group>";
@@ -304,6 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */,
+				51E8E5712572D6E800B54999 /* SceneDelegate.swift in Sources */,
+				51E8E5752572D74000B54999 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +398,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -445,7 +453,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
